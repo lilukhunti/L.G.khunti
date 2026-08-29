@@ -2,6 +2,8 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $phone = $_POST['phone'];
+$date = $_POST['date'];
+$age = $_POST['age'];
 $blood = $_POST['bloodgroup'];
 
 ?>
@@ -20,6 +22,10 @@ style="font-family:Arial;text-align:center;">
 <p>Email: <?php echo $email; ?></p>
 
 <p>Phone: <?php echo $phone; ?></p>
+
+<p>Date: <?php echo $date; ?></p>
+
+<p>Age: <?php echo $age; ?></p>
 
 <p>Bloodgroup: <?php echo $blood; ?></p>
 

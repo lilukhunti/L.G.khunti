@@ -1,0 +1,125 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body.bg-red {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('blood-bg.jpg') #800000;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.quick-links-container {
+  width: 400px;
+}
+.quick-links-container h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.quick-links-container hr {
+  margin-bottom: 25px;
+  border: 0;
+  height: 1px;
+  background: #fff;
+}
+.quick-links-container ul {
+  list-style: none;
+}
+.quick-links-container ul li {
+  margin-bottom: 18px;
+}
+.quick-links-container ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.quick-links-container ul li a:hover {
+  padding-left: 10px;
+  color: #ffcccc;
+}
+.footer-text {
+  margin-top: 40px;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+
+body {
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+.form-container, .info-container {
+  max-width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: auto;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.muto-box {
+  width: 100%;
+  height: 52px;
+  font-size: 17px;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+.nano-box {
+  width: 31%;
+  height: 48px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 2%;
+}
+
+
+.submit-btn {
+  width: 100%;
+  height: 52px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 2px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.submit-btn:hover {
+  background-color: #333;
+  color: white;
+}
+.back-link {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.camp-card {
+  border-left: 5px solid #d9534f;
+  background: #fdf2f2;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 0 4px 4px 0;
+}
+.camp-card h3 {
+  font-size: 18px;
+  color: #c9302c;
+  margin-bottom: 5px;
+}

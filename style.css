@@ -175,3 +175,42 @@ footer{
     padding-top: 20px;
     font-size: 14px;
     color: #ffcccc;
+}
+
+body{
+    padding: 0px;
+}
+
+.form-container{
+    max-width: 400px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.input-large{
+  width:200px;
+  height: 50px;
+  padding: 10px;
+  margin-bottom:15px;
+  border:1px solid #000;  
+}
+
+.input-small{
+    width: 120px;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    display:block;
+}
+
+.btn-submit{
+    width: 120px;
+    height: 40px;
+    background-color: #ffffff;
+    border:1px solid #000;
+    cursor:pointer;
+    font-weight: bold;
+}

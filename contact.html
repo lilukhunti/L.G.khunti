@@ -2,27 +2,161 @@
 <html>
     <head>
         <title>Contact Us</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contact.css">
     </head>
     <header>
+        <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fontawesome.com/search?ic=free-collection">
+    
+    </head>
+    
+    <body>
+        <style>
+        body{
+    background-image: url('b.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+
+            <header class="navbar">
+                <div class="logo-container">
+                    <img src="L.png" alt="Sanjeevani Blood Bank Logo" class="right-logo">
+                </div>
+                
             <h2><u>SANjEEVNI BLOOD BANK ORGANIZATION </u></h2>
+</style>
             <nav>
                 <a href="index.html" class="btn">Home</a>
                 <a href="about.html" class="btn">About</a>
-                <a href="register.html" class="btn">Become Doner</a>
+                <a href="form.html" class="btn">Become Doner</a>
                 <a href="contact.html" class="btn">Contact</a>
             </nav>
         </header>
+  
+        
     <body>
+         <section class="container">
 
-        <h2 align="center" style="color: black;">Contact Us</h2>
+        <div class="contact-header">
+            <h1>Sanjeevani Blood Bank</h1>
+            <p>Reach out to us for immediate blood requirements, setting up donation camps, or volunteering queries. We operate 24/7 to save lives.</p>
+        </div>
+
+        <div class="contact-wrapper">
+
+            <div class="info-container">
+                
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                    <div>
+                        <h3>Emergency 24/7 Hotline</h3>
+                        <p><a href="tel:+919422223117">+91 94222 23117</a> / <a href="tel:+919421723117">+91 94217 23117</a></p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <h3>Email Inquiries</h3>
+                        <p><a href="mailto:contact@sanjivanibloodbank.org">contact@sanjivanibloodbank.org</a></p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <h3>Main Head Office Location</h3>
+                        <p>Sanjeevani Blood Centre, Near shree swaminarayan gurukul college main Road chhaya-porbandar-360575</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div>
+                        <h3>Operational Hours</h3>
+                        <p><strong>Emergency:</strong> 24 Hours Open (All Days)<br><strong>Office Desk:</strong> 9:00 AM - 6:00 PM (Mon - Sat)</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-container">
+                <h2>Send Us A Message</h2>
+                <form action="#" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="name">Full Name / Hospital Representative</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Active Mobile Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label>required Blood group</label>
+                        <select required>
+                            <option value="">select Blood Group</option>
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-+</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>required Data</label>
+                        <input type="date" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="purpose">Purpose of Inquiry</label>
+                        <select id="purpose" name="purpose" class="form-control" required>
+                            <option value="" disabled selected>-- Select an option --</option>
+                            <option value="emergency">Emergency Blood Requirement</option>
+                            <option value="donor">Volunteering to Donate Blood</option>
+                            <option value="camp">Organize a Blood Donation Camp</option>
+                            <option value="other">General Management/Other Info</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Detailed Information / Patient Case Message</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Write your requirements here (e.g., Blood group required, units needed, location details)" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        Submit Request <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+        
         <form action="contact.php" method="POST" align="center">
 
-            <input type="text" name="name" Placeholder="Your Name" required><br><br>
+        
 
-            <textarea name="message" placeholder="Your Message"  required></textarea><br><br>
-
-            <input type="submit" value="Send Message">
+          
                 </form>
     </body>
 </html>

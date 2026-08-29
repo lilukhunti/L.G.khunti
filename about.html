@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fontawesome.com/search?ic=free-collection">
+    
+    </head>
+    
+    <body>
+        
+       
+
+            <header class="navbar">
+                <div class="logo-container">
+                    <img src="L.png" alt="Sanjeevani Blood Bank Logo" class="right-logo">
+                </div>
+                
+            <h2><u>SANjEEVNI BLOOD BANK ORGANIZATION </u></h2>
+</style>
+            <nav>
+                <a href="index.html" class="btn">Home</a>
+                <a href="about.html" class="btn">About</a>
+                <a href="form.html" class="btn">Become Doner</a>
+                <a href="contact.html" class="btn">Contact</a>
+            </nav>
+        </header>
+  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sanjeevani Blood Bank</title>
+
+    <link rel="stylesheet" href="https://cloudflare.com">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fcfcfc;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(214, 40, 40, 0.85), rgba(0, 0, 0, 0.7)), url('https://unsplash.com') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 900px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #d62828;
+            margin: 50px 0 30px 0;
+            font-size: 2.3rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background-color: #d62828;
+            margin: 10px auto 0 auto;
+            border-radius: 2px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 80px;
+            gap: 50px;
+        }
+
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .col-text {
+            flex: 1;
+        }
+
+        .col-text h2 {
+            color: #2b2d42;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            border-left: 5px solid #d62828;
+            padding-left: 15px;
+        }
+
+        .col-text p {
+            font-size: 1.1rem;
+            color: #555;
+            text-align: justify;
+        }
+
+        .col-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .col-image img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+            transition: transform 0.4s ease;
+        }
+
+        .col-image img:hover {
+            transform: scale(1.03);
+        }
+
+        .value-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .value-list li {
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            color: #444;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .value-list li i {
+            color: #d62828;
+            margin-right: 12px;
+            margin-top: 6px;
+            font-size: 1.2rem;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 35px 25px;
+            border-radius: 16px;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+            transition: all 0.3s ease;
+            border-top: 5px solid #d62828;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(214, 40, 40, 0.15);
+        }
+
+        .card i {
+            font-size: 3rem;
+            color: #d62828;
+            margin-bottom: 20px;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            color: #2b2d42;
+            font-size: 1.4rem;
+        }
+
+        .card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .process-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            background: #fff;
+            padding: 40px 20px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+            padding: 15px;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: #d62828;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px auto;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .process-step h4 {
+            color: #2b2d42;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+
+        .process-step p {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .row, .row-reverse {
+                flex-direction: column;
+                gap: 30px;
+                margin-bottom: 50px;
+            }
+            .hero h1 { font-size: 2.3rem; }
+            .hero p { font-size: 1.1rem; }
+            .section-title { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>Sanjeevani Blood Bank</h1>
+        <p>Our mission is to save lives by ensuring a safe, adequate, and timely supply of blood to those in need. We bridge the gap between voluntary blood donors and hospitals through technology and compassion.</p>
+    </div>
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-text">
+                <h2>Who We Are</h2>
+                <p>Sanjeevani Blood Bank is a non-profit, technology-driven organization dedicated to humanitarian service. Established with the vision of "Life for All," we work 24/7 to manage blood collection, testing, and distribution efficiently. We organize regular voluntary blood donation camps in colleges, corporates, and residential areas to maintain a steady supply of blood components like RBC, Plasma, and Platelets. Our team consists of dedicated medical professionals and volunteers working tirelessly to ensure no emergency goes unanswered.</p>
+            </div>
+            <div class="col-image">
+                <img src="a.png" alt="Blood Donation Camp">
+            </div>
+        </div>
+
+
+        <div class="row row-reverse">
+            <div class="col-text">
+                <h2>Our Core Values</h2>
+                <ul class="value-list">
+                    <li><i class="fa-solid fa-circle-check"></i> <div><strong>Transparency:</strong> We maintain a clear and ethical record of blood testing, storage, and distribution.</div></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <div><strong>Safety First:</strong> Every single drop of blood undergoes rigorous screening for safety.</div></li>
+                    <li><i class="fa-solid fa-circle-check"></i> <div><strong>Community Spirit:</strong> We believe in fostering a culture of selfless and regular blood donation.</div></li>
+                </ul>
+            </div>
+            <div class="col-image">
+                <img src="aa.png" alt="Core Values">
+            </div>
+        </div>
+
+        <h2 class="section-title">Why Choose Sanjeevani?</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <i class="fa-solid fa-shield-heart"></i>
+                <h3>Safe & Certified</h3>
+                <p>We follow strict international medical standards for blood collection, processing, and cryo-preservation.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Quick Response Network</h3>
+                <p>Our modern digital database helps in finding rare blood groups within minutes during emergencies.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                <h3>100% Voluntary</h3>
+                <p>We encourage purely voluntary, non-remunerated donations to ensure the highest quality of blood.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-clock"></i>
+                <h3>24/7 Availability</h3>
+                <p>Our helpdesk and inventory management system operate round-the-clock to fulfill critical requests.</p>
+            </div>
+        </div>
+        
+        <h2 class="section-title">How We Work (The Process)</h2>
+        <div class="process-container">
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <h4>Registration</h4>
+                <p>Donors sign up easily via our website platform or application.</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <h4>Screening</h4>
