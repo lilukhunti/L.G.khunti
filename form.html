@@ -19,7 +19,8 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f6f9;
+            background-color: #ffffff;
+            background: #ffffff;
             height: 100vh; 
             display: flex;
             flex-direction: column; 
@@ -88,7 +89,7 @@
 
     
         .form-container {
-            background-color: #ffffff;
+            background-color: #f8f9fa;
             padding: 40px;
             border-radius: 20px;
             width: 100%;
@@ -187,7 +188,7 @@
             
             <form onsubmit="event.preventDefault();">
                 <div class="form-group">
-                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" id="nameInput" placeholder="Full Name" required>
                 </div>
                 
                 <div class="form-group">
@@ -195,7 +196,7 @@
                 </div>
                 
                 <div class="form-group">
-                    <input type="tel" placeholder="Phone" required>
+                    <input type="tel" id="phoneInput" placeholder="Phone" required>
                 </div>
                 
                 <div class="form-group">
@@ -204,13 +205,13 @@
                 
                 <div class="row">
                     <div class="form-group">
-                        <input type="number" placeholder="Age" min="18" max="65" required>
+                        <input type="number" id="ageInput" placeholder="Age" maxlength="2" min="18" max="65" required>
                     </div>
 
 
                     
                     <div class="form-group">
-                        <input type="text" placeholder="City/Location" required>
+                        <input type="text" id="cityInput" placeholder="City/Location" required>
                     </div>
 
                     
@@ -236,6 +237,6 @@
         </form>
         </div>
     </main>
-
+<script src="form.js"></script>
 </body>
 </html>
